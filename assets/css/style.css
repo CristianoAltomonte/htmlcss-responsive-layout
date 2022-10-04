@@ -54,7 +54,7 @@ header{
 
 .menu{
     align-items: center;
-    padding: 2% 2%;
+    padding: 2% 0;
 }
 
 .navigation{
@@ -196,7 +196,6 @@ button{
     text-align: center;
     padding: 30px 10px;
     color: white;
-    
 }
 
 .card >img {
@@ -215,6 +214,7 @@ button{
 
 .container-benefits{
     background-color: rgba(151, 146, 228, 1);
+    padding-bottom: 50px;
 }
 
 .title{
@@ -239,17 +239,40 @@ button{
     color: rgba(90, 110, 127, 1);
 }
 
-.bottone-benefit{
+.bottone-viola{
     background-color: rgba(151, 146, 228, 1);
     padding: 5px 45px;
     margin-top: 15px;
     color: white;
 }
 
+/* FIFTH SECTION  */
 
+.card-about{
+    text-align: left;
+    padding: 30px 10px; 
+    color: white;
+    position: relative;
+} 
 
+.card-about >img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+} 
 
+.card-about > .fa-quote-left{
+    color: rgba(151, 146, 228, 1);
+    top: 25px;
+    left: 120px;
+    position: absolute;
+} 
 
+.container-about h3,h4{
+    color: rgba(151, 146, 228, 1);
+}
 
 /* MEDIA QUERY */
 
@@ -309,6 +332,15 @@ button{
     width: 45%;
     
    }
+
+   .container-about{
+    display: flex;
+    align-items: center;
+   }  
+
+   .bottone-viola{
+    padding: 3px 15px
+   }
 }
 
 /* DESKTOP  */
@@ -338,6 +370,26 @@ button{
     .container-strategic{
         display: flex;
     }
+
+    .container-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .box-benefit{
+        width: calc(96%/3);
+    }
+
+    /* .card-about{
+        text-align: center;
+    } */
+
+    /* .card-about >h4{
+        padding: 8px 130px;
+    } */
+
+
     /* .box-img >img{
         align-self:flex-end;
     } */
