@@ -27,7 +27,7 @@
 }
 
 .center{
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
@@ -135,11 +135,17 @@ button{
 .strategic-planning{
   text-align: center;
   padding: 20px 0;
+  color: white;
+}
+
+.viola{
+    background-color: rgba(151, 146, 228, 1);
 }
 
 .container-strategic{
-    background-color: rgba(151, 146, 228, 1);
     padding-bottom: 40px;
+    width: 70%;
+    margin: auto;
 
 }
 
@@ -278,13 +284,19 @@ button{
 
 .container-join {
     background-color: rgba(151, 146, 228, 1);
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
 .container-join span{
     display: block;
     margin-top: 10px;
+}
+
+.p-join{
+    margin: auto;
+    color: white;
+    margin-top: 20px;
 }
 
 .bottone-join{
@@ -306,6 +318,26 @@ button{
     color: rgba(253, 193, 95, 1);
     font-size: 3rem;
 }
+
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    padding: 30px 0;
+    color: white;
+    font-size: smaller;
+    text-align:center;
+
+
+}
+
+.p-footer{
+    font-size: smaller;
+}
+
+
+
 /* MEDIA QUERY */
 
 /* TABLET  */
@@ -379,6 +411,7 @@ button{
 
 @media screen and (min-width: 1024px) {
     
+
     .big{
         display: flex;
         justify-content: flex-end;
@@ -401,6 +434,7 @@ button{
 
     .container-strategic{
         display: flex;
+        align-items: flex-end;
     }
 
     .container-box{
@@ -413,18 +447,6 @@ button{
         width: calc(96%/3);
     }
 
-    /* .card-about{
-        text-align: center;
-    } */
-
-    /* .card-about >h4{
-        padding-right: 70px;
-    }  */
-
-
-    /* .box-img >img{
-        align-self:flex-end;
-    } */
 }
 
 
